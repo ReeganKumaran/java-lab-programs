@@ -1,0 +1,6 @@
+*.class
+sample.txt
+destination.txt
+.idea/
+.vscode/
+*.iml

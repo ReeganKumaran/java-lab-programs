@@ -1,0 +1,11 @@
+<!-- Add these entries inside <web-app>...</web-app> in
+     <Tomcat-installation-directory>/webapps/ROOT/WEB-INF/web.xml -->
+<servlet>
+    <servlet-name>HelloWorld</servlet-name>
+    <servlet-class>HelloWorld</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>HelloWorld</servlet-name>
+    <url-pattern>/HelloWorld</url-pattern>
+</servlet-mapping>
